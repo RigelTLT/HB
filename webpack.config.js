@@ -27,7 +27,7 @@ module.exports = {
       filename: "index.html",
       chunks: ["main"],
       template: "./src/index.html",
-      //favicon: "./public/assets/ico/manual.png",
+      favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({
       template: "./src/components/header/header.html",
@@ -65,7 +65,6 @@ module.exports = {
             },
           },
           {
-            // Loads a SASS/SCSS file and compiles it to CSS
             loader: "sass-loader",
             options: {
               sassOptions: {
