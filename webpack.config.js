@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    main: "./src/main.js",
+    main: "./src/index.js",
   },
   output: {
     filename: "[name].[contenthash].js",
