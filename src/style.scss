@@ -43,12 +43,19 @@ body {
   border-radius: 0.62rem;
   height: 3.38rem;
   width: 11.25rem;
+  letter-spacing: 0.05rem;
   background: $color-oranges;
   --bs-btn-border-color: $color-oranges;
+}
+.span-phone {
+  margin-right: auto;
+  margin-left: 5rem;
 }
 .text-phone {
   color: $color-oranges !important;
   text-decoration: none;
   font-weight: 700;
   color: #f57520;
+
+  letter-spacing: 0.06rem;
 }
