@@ -4,7 +4,6 @@ export async function loadHeader() {
 
   const headerElement = document.querySelector(".header");
   if (headerElement) {
-    // Проверьте, что элемент найден
     headerElement.innerHTML = headerHTML;
   } else {
     console.error("Элемент с классом 'header' не найден");
@@ -16,7 +15,6 @@ export async function loadFooter() {
 
   const headerElement = document.querySelector(".footer");
   if (headerElement) {
-    // Проверьте, что элемент найден
     headerElement.innerHTML = headerHTML;
   } else {
     console.error("Элемент с классом 'footer' не найден");

@@ -14,7 +14,10 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div
+      class="collapse navbar-collapse justify-content-between"
+      id="navbarNav"
+    >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">КАТАЛОГ</a>
@@ -33,10 +36,16 @@
         </li>
       </ul>
       <span class="navbar-text col-2 text-end">
-        <span class="navbar-text">8 800 600 35 56</span>
+        <a href="tel:+78006003556" class="navbar-text text-phone"
+          >8 800 600 35 56</a
+        >
       </span>
-      <form class="container-fluid justify-content-start col-2">
-        <button class="btn btn-primary w-100" type="button">Заказать</button>
+      <form
+        class="container-fluid justify-content-start col-2 d-flex justify-content-end mx-0"
+      >
+        <button class="btn btn-primary btn-order" type="button">
+          Заказать
+        </button>
       </form>
     </div>
   </div>
