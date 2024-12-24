@@ -8,6 +8,7 @@
 }
 $font-family: "inter", sans-serif;
 $color-oranges: #f57520;
+$color-oranges-hover: #a1511d;
 body {
   font-family: $font-family;
 }
@@ -36,8 +37,12 @@ body {
   color: $color-oranges !important;
 }
 .sea-container {
-  background: linear-gradient(88deg, #000 58.38%, rgba(0, 0, 0, 0) 100%),
-    url("/public/assets/image/1.png");
+  background: url("/public/assets/image/1.png");
+  background-size: cover; // или contain, в зависимости от ваших нужд
+  background-repeat: no-repeat; // предотвращает дублирование изображения
+}
+.btn {
+  --bs-btn-padding-x: 3.75rem;
 }
 .btn-order {
   border-radius: 0.62rem;
@@ -47,6 +52,11 @@ body {
   background: $color-oranges;
   --bs-btn-border-color: $color-oranges;
 }
+.btn:hover {
+  background-color: $color-oranges-hover;
+  border-color: $color-oranges-hover;
+}
+
 .span-phone {
   margin-right: auto;
   margin-left: 5rem;
@@ -58,4 +68,24 @@ body {
   color: #f57520;
 
   letter-spacing: 0.06rem;
+}
+.title-page {
+  padding: 5rem 1rem 15.2rem 2rem;
+}
+.title-text {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 5.62rem;
+  line-height: 123%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.title-addition {
+  padding: 3rem 0 1.4rem 0;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 160%;
+  letter-spacing: 0.04em;
+  color: #fff;
 }

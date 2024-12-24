@@ -13,14 +13,15 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
     assetModuleFilename: "assets/[hash][ext][query]",
+    publicPath: "/",
   },
   devServer: {
     port: 8080,
+    hot: true,
     open: true,
     static: {
       directory: path.join(__dirname, "dist"),
     },
-    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
