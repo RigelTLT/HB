@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "inter";
+  src: url("/public/assets/fonts/Inter-Italic.ttf") format("ttf"),
+    url("/public/assets/fonts/Inter-VariableFont.ttf") format("ttf");
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+$font-family: "inter", sans-serif;
+$color-oranges: #f57520;
+$color-oranges-hover: #a1511d;
+body {
+  font-family: $font-family;
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar {
+  --bs-navbar-padding-y: 0.8rem;
+}
+.nav-link,
+.text-phone {
+  font-family: $font-family;
+  font-size: 0.88rem;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+.nav-link {
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.02rem;
+}
+.nav-link:hover {
+  color: $color-oranges;
+}
+.nav-link.active {
+  color: $color-oranges !important;
+}
+.sea-container {
+  background: url("/public/assets/image/1.png");
+  background-size: cover; // или contain, в зависимости от ваших нужд
+  background-repeat: no-repeat; // предотвращает дублирование изображения
+}
+.btn {
+  --bs-btn-padding-x: 3.75rem;
+}
+.btn-order {
+  border-radius: 0.62rem;
+  height: 3.38rem;
+  width: 11.25rem;
+  letter-spacing: 0.05rem;
+  background: $color-oranges;
+  --bs-btn-border-color: $color-oranges;
+}
+.btn:hover {
+  background-color: $color-oranges-hover;
+  border-color: $color-oranges-hover;
+}
+
+.span-phone {
+  margin-right: auto;
+  margin-left: 5rem;
+}
+.text-phone {
+  color: $color-oranges !important;
+  text-decoration: none;
+  font-weight: 700;
+  color: #f57520;
+
+  letter-spacing: 0.06rem;
+}
