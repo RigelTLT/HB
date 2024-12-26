@@ -9,8 +9,12 @@ body {
 .container-fluid {
   padding: 0;
 }
+.logo {
+  margin-right: 0.2rem;
+}
 .navbar {
   --bs-navbar-padding-y: 0.8rem;
+  --bs-navbar-nav-link-padding-x: 0.6rem;
 }
 .nav-link,
 .text-phone {
@@ -43,6 +47,7 @@ body {
   width: 11.25rem;
   background: $color-oranges;
   --bs-btn-border-color: $color-oranges;
+  margin-right: 0.5rem;
 }
 .btn:hover {
   background-color: $color-oranges-hover;
@@ -50,8 +55,7 @@ body {
 }
 
 .span-phone {
-  margin-right: auto;
-  margin-left: 5rem;
+  margin-left: 2.1rem;
 }
 .text-phone {
   color: $color-oranges !important;

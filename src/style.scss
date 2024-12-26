@@ -2,7 +2,7 @@
 @import "./components/header/header";
 
 .title-page {
-  padding: 5rem 1rem 15.2rem 2rem;
+  padding: 5rem 1rem 15.2rem 1.1rem;
 }
 .title-text {
   font-family: $font-family;
@@ -30,7 +30,6 @@
   );
 }
 .row-col-text {
-  height: 13.25rem;
 }
 .col-text {
   font-family: $font-family;
@@ -39,26 +38,27 @@
   line-height: 160%;
   letter-spacing: 0.01em;
   color: #fff;
-  padding: 3rem 0rem 0rem 3rem;
-  height: 100%;
+  padding: 3.1rem 6rem 0rem 3rem;
+  height: 13.25rem;
 }
 .col-left {
   background: #101010;
 }
 .col-center {
   background: #131313;
+  //padding: 3rem 3.6rem 0rem 0rem;
 }
 .col-rigth {
   background: #2e2e2e;
 }
 .col-left-text {
-  max-width: 18rem;
+  width: 18rem;
 }
 .col-center-text {
-  max-width: 16rem;
+  width: 16rem;
 }
 .col-rigth-text {
-  max-width: 16em;
+  width: 16em;
 }
 .row-partner {
   padding-top: 150px;
@@ -67,7 +67,7 @@
   gap: 9rem;
 }
 .catalog {
-  padding: 13.2rem 0rem 1rem 1.6rem;
+  padding: 13.2rem 0rem 1rem 1rem;
 }
 .catalog-text {
   font-family: $font-family;
@@ -79,12 +79,12 @@
 }
 .sales-region {
   border-radius: 0.62rem;
-  width: 80rem;
-  height: 18.75rem;
+  max-width: 80rem;
+  min-height: 18.75rem;
   background: url("/public/assets/image/sale-region.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 2rem 0rem 0rem 1.6rem;
+  margin: 2rem 0rem 0rem 1.2rem;
 }
 .sales-region-text {
   font-family: $font-family;
@@ -97,7 +97,7 @@
   padding: 5.9rem 0rem 0rem 4.7rem;
 }
 .list-sea-container {
-  padding: 1rem 0.7rem 0rem 1.8rem;
+  padding: 1rem 0.7rem 0rem 1.2rem;
   gap: 0.6rem;
 }
 .list-col-conatainer {
@@ -106,28 +106,28 @@
 }
 .sea-20 {
   border-radius: 0.62rem;
-  width: 26.25rem;
-  height: 11.88rem;
+  max-width: 26.25rem;
+  min-height: 11.88rem;
   background: url("/public/assets/image/3.png");
 }
 .ref-20 {
   border-radius: 0.62rem;
-  width: 26.25rem;
-  height: 15.75rem;
+  max-width: 26.25rem;
+  min-height: 15.75rem;
   background: url("/public/assets/image/4.png");
 }
 
 .sea-10,
 .sea-40 {
   border-radius: 0.62rem;
-  width: 26.25rem;
-  height: 14.94rem;
+  max-width: 26.25rem;
+  min-height: 14.94rem;
 }
 .sea-45,
 .ref-40 {
   border-radius: 0.62rem;
-  width: 26.25rem;
-  height: 12.69rem;
+  max-width: 26.25rem;
+  min-height: 12.69rem;
 }
 .sea-10 {
   background: url("/public/assets/image/7.png");
@@ -163,19 +163,25 @@
 .sea-45-text,
 .sea-20-text {
   padding: 2.5rem 0rem 0rem 2.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ref-40-text {
   padding: 1.3rem 0rem 0rem 1.9rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .ref-20-text {
   padding: 1.5rem 0rem 0rem 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .row-company {
-  padding: 6rem 0rem 0rem 1.9rem;
+  padding: 6rem 0rem 0rem 1.3rem;
 }
 .col-more-company-text {
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0rem 0rem 0.8rem;
   font-family: $font-family;
   font-weight: 400;
   font-size: 1rem;
@@ -193,17 +199,23 @@
   color: #b3b3b3;
   text-decoration: none;
 }
+.mar-0 {
+  margin: 0;
+}
 .heavy-box-girl {
   margin-top: 3rem;
+}
+.heavy-box-girl-img {
+  width: 100%;
 }
 .row-company-features {
   gap: 3rem;
   background: #2e2e2e;
-  height: 16.38rem;
+  min-height: 16.38rem;
 }
 .col-company-features {
-  width: 25rem;
-  height: 12.56rem;
+  max-width: 25rem;
+  min-height: 12.56rem;
 }
 .company-features-title {
   padding: 0.5rem 0rem 0rem 0rem;
@@ -223,6 +235,9 @@
 .col-company-features-center {
   padding: 0rem 0rem 0rem 0.5rem;
 }
+.col-company-features-rigth {
+  margin: 0rem 1rem 0rem 0rem;
+}
 .company-features-text {
   font-family: $font-family;
   font-weight: 300;
@@ -232,10 +247,12 @@
 }
 .black-background {
   background: url("/public/assets/image/black fon.png");
-  height: 64.69rem;
+  min-height: 64.69rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pick-up-container-title-cont {
-  padding: 5rem 0rem 0rem 2rem;
+  padding: 5rem 0rem 0rem 1.3rem;
 }
 .pick-up-container-title {
   font-family: $font-family;
@@ -245,7 +262,7 @@
   letter-spacing: 0.1rem;
 }
 .pick-up-container-text-cont {
-  padding: 5rem 5rem 0rem 6rem;
+  padding: 5rem 5rem 0rem 5.6rem;
 }
 .pick-up-container-text {
   font-family: $font-family;
@@ -255,21 +272,24 @@
   color: #fff;
 }
 .row-container-tile {
-  padding: 2.4rem 0rem 0rem 1.8rem;
+  padding: 2.4rem 0rem 0rem 1.1rem;
   gap: 2.3rem;
 }
 .col-container-tile {
-  width: 25rem;
-  gap: 2.3rem;
+  max-width: 25rem;
+  gap: 2.6rem;
 }
 .container-tile {
   border-radius: 0.62rem;
-  height: 19.81rem;
+  min-height: 19.81rem;
   background: #d9d9d9;
   padding: 1rem 0rem 0rem 2.3rem;
 }
 .container-tile:hover {
   background: #fff;
+}
+.img-container {
+  max-width: 100%;
 }
 .container-image-caption {
   font-family: $font-family;
@@ -277,4 +297,10 @@
   font-size: 1.25rem;
   line-height: 160%;
   color: #000;
+}
+.gray-background {
+  background: #f8f8f8;
+}
+.sea-container-title {
+  padding: 8rem 0rem 0rem 1rem;
 }
