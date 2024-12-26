@@ -4,6 +4,11 @@
 .title-page {
   padding: 5rem 1rem 15.2rem 1.1rem;
 }
+.sea-container {
+  background: url("/public/assets/image/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .title-text {
   font-family: $font-family;
   font-weight: 700;
@@ -28,8 +33,6 @@
     rgba(19, 19, 19, 1) 45%,
     rgba(46, 46, 46, 1) 51%
   );
-}
-.row-col-text {
 }
 .col-text {
   font-family: $font-family;
@@ -300,7 +303,61 @@
 }
 .gray-background {
   background: #f8f8f8;
+  padding-bottom: 5rem;
 }
 .sea-container-title {
   padding: 8rem 0rem 0rem 1.6rem;
+}
+.advantages {
+  padding: 3.2rem 0rem 0rem 0.4rem;
+}
+.col-advantages {
+  gap: 1rem;
+}
+.advantages-services {
+  border-radius: 0.62rem;
+  max-width: 18.88rem;
+  min-height: 14.56rem;
+  background: #34312d;
+  position: relative;
+}
+.advantages-services-img {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.8rem;
+}
+.advantages-services-title {
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #fff;
+  padding: 3rem 0rem 0rem 1.6rem;
+}
+.advantages-services-text {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: #fff;
+  line-height: 1.1rem;
+  padding: 1rem 3rem 0rem 1.6rem;
+}
+.advantages-services-text2 {
+  padding: 1rem 1rem 0rem 1.6rem;
+}
+.advantages-services-title2 {
+  padding: 2rem 0rem 0rem 1.6rem;
+}
+.advantages-services-text3 {
+  padding: 2rem 1rem 0rem 1.6rem;
+}
+.col-woman {
+  padding: 0rem 0rem 0rem 8rem;
+}
+.text-buy-containers {
+  padding: 3rem 0rem 1rem 0rem;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4c4c4c;
+  line-height: 1.2rem;
 }
