@@ -308,32 +308,32 @@
 .sea-container-title {
   padding: 8rem 0rem 0rem 1.6rem;
 }
-.advantages {
+.block-sea-containers {
   padding: 3.2rem 0rem 0rem 0.4rem;
 }
-.col-advantages {
+.col-block-sea-containers {
   gap: 1rem;
 }
-.advantages-services {
+.block-sea-containers-services {
   border-radius: 0.62rem;
   max-width: 18.88rem;
   min-height: 14.56rem;
   background: #34312d;
   position: relative;
 }
-.advantages-services-img {
+.block-sea-containers-services-img {
   position: absolute;
   top: 1.6rem;
   right: 1.8rem;
 }
-.advantages-services-title {
+.block-sea-containers-services-title {
   font-family: $font-family;
   font-weight: 500;
   font-size: 1.25rem;
   color: #fff;
   padding: 3rem 0rem 0rem 1.6rem;
 }
-.advantages-services-text {
+.block-sea-containers-services-text {
   font-family: $font-family;
   font-weight: 400;
   font-size: 0.88rem;
@@ -341,13 +341,13 @@
   line-height: 1.1rem;
   padding: 1rem 3rem 0rem 1.6rem;
 }
-.advantages-services-text2 {
+.block-sea-containers-services-text2 {
   padding: 1rem 1rem 0rem 1.6rem;
 }
-.advantages-services-title2 {
+.block-sea-containers-services-title2 {
   padding: 2rem 0rem 0rem 1.6rem;
 }
-.advantages-services-text3 {
+.block-sea-containers-services-text3 {
   padding: 2rem 1rem 0rem 1.6rem;
 }
 .col-woman {
@@ -360,4 +360,21 @@
   font-size: 1rem;
   color: #4c4c4c;
   line-height: 1.2rem;
+}
+.advantages-title {
+  padding: 9.3rem 0rem 3.1rem 1.4rem;
+}
+.advantages-left-banner {
+  max-width: 52.6rem;
+  background: url("/public/assets/image/Rectangle 148.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages-center-banner {
+  max-width: 48.75rem;
+}
+.advantages-rigth-banner {
+  max-width: 20.38rem;
+  background: url("/public/assets/image/Rectangle 149.jpg");
+  background-repeat: no-repeat;
 }
