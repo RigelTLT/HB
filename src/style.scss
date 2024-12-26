@@ -353,6 +353,12 @@
 .col-woman {
   padding: 0rem 0rem 0rem 8rem;
 }
+.photo-woman-containers {
+  max-width: 32rem;
+}
+.photo-woman-containers-img {
+  width: 100%;
+}
 .text-buy-containers {
   padding: 3rem 0rem 1rem 0rem;
   font-family: $font-family;
@@ -369,12 +375,15 @@
   background: url("/public/assets/image/Rectangle 148.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  flex: 2;
 }
 .advantages-center-banner {
   max-width: 48.75rem;
+  flex: 1;
 }
 .advantages-rigth-banner {
   max-width: 20.38rem;
   background: url("/public/assets/image/Rectangle 149.jpg");
   background-repeat: no-repeat;
+  flex: 2;
 }
