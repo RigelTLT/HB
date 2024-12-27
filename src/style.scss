@@ -36,12 +36,13 @@
 }
 .col-text {
   font-family: $font-family;
+  width: 26.69rem;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 160%;
   letter-spacing: 0.01em;
   color: #fff;
-  padding: 3.1rem 6rem 0rem 3rem;
+  padding: 3.1rem 0rem 0rem 3rem;
   height: 13.25rem;
 }
 .col-left {
@@ -376,14 +377,45 @@
   background-size: cover;
   background-repeat: no-repeat;
   flex: 2;
+  border-radius: 0 0.62rem 0.62rem 0;
 }
 .advantages-center-banner {
   max-width: 48.75rem;
   flex: 1;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  gap: 2.5rem;
 }
 .advantages-rigth-banner {
-  max-width: 20.38rem;
+  max-width: 20.1rem;
   background: url("/public/assets/image/Rectangle 149.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   flex: 2;
+  border-radius: 0.62rem 0 0 0.62rem;
+}
+.advantages-center-banner-col {
+  gap: 2rem;
+}
+.advantages-center-banner-cell {
+  border-radius: 0.62rem;
+  width: 20.62rem;
+  min-height: 7.5rem;
+  background: #f57520;
+}
+
+.advantages-center-banner-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 1.12rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.1rem 0rem 0rem 1.5rem;
+}
+.advantages-center-banner-text {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0rem 2rem 0rem 1.5rem;
+  line-height: 1.2rem;
 }
