@@ -441,3 +441,54 @@
 .map {
   padding: 0rem 0rem 0rem 0rem;
 }
+.row-news-title {
+  padding: 2.2rem 0rem 0rem 0.4rem;
+}
+.row-news {
+  padding: 3.1rem 0rem 0rem 1.1rem;
+  gap: 2.5rem;
+}
+.news-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #101010;
+  letter-spacing: 0.1rem;
+}
+.col-news {
+  border-radius: 0.62rem;
+  max-width: 25rem;
+  min-height: 28.88rem;
+  background: #101010;
+  overflow: hidden;
+}
+.col-news-text {
+  padding: 1.6rem 0rem 0rem 1.7rem;
+}
+.news-date {
+  margin-bottom: 0.5rem;
+}
+.news-date,
+.news-link {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #fff;
+}
+.news-tage {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #f57520;
+}
+.news-text {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 1.12rem;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin: 1rem 0rem 5rem 0rem;
+}

@@ -10,10 +10,10 @@ async function loadMap() {
       .then((response) => response.text())
       .then((data) => {
         mapElement.innerHTML = data;
-        const svgElement = document.querySelector("svg");
+        /*const svgElement = document.querySelector("svg");
         svgElement.addEventListener("click", () => {
           alert("SVG был нажат!");
-        });
+        });*/
       });
   }
 }
