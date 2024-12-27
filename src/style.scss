@@ -416,6 +416,28 @@
   font-weight: 300;
   font-size: 1rem;
   color: #fff;
-  padding: 0rem 2rem 0rem 1.5rem;
+  padding: 0rem 1.8rem 0rem 1.5rem;
   line-height: 1.2rem;
+}
+.col-map-title {
+  padding: 9.3rem 0rem 0rem 1rem;
+}
+.map-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #101010;
+  letter-spacing: 0.1rem;
+}
+.map-text {
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.005rem;
+  line-height: 1.3rem;
+  color: #000;
+  padding: 0.5rem 45rem 0rem 0.2rem;
+}
+.map {
+  padding: 0rem 0rem 0rem 0rem;
 }
