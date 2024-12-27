@@ -484,6 +484,7 @@
   font-size: 1rem;
   line-height: 160%;
   color: #f57520;
+  text-decoration: none;
 }
 .news-text {
   font-family: $font-family;
@@ -508,4 +509,46 @@
   text-transform: uppercase;
   color: #777;
   text-decoration: none;
+}
+.row-contact-title {
+  padding: 7rem 0rem 0rem 0.5rem;
+}
+.contact-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #101010;
+  letter-spacing: 0.1rem;
+}
+.row-contact-map {
+  padding: 3.6rem 0rem 0rem 0rem;
+}
+.row-contats {
+  gap: 9rem;
+}
+.col-contats {
+  padding: 2.5rem 0rem 0rem 1rem;
+  max-width: 13.44rem;
+}
+.contats-text {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #101010;
+  text-decoration: none;
+  padding: 0.1rem 0rem 0rem 1.5rem;
+}
+.contats-img-phone {
+  padding: 0.1rem 0rem 0rem 0.6rem;
+}
+.contats-text-adress {
+  padding: 0.1rem 0rem 0rem 1rem;
+}
+.contats-text-mail {
+  padding: 0rem 0rem 0rem 1.1rem;
+}
+.contats-text-schedule {
+  line-height: 194%;
+  padding: 0rem 0rem 0rem 1rem;
 }
