@@ -552,3 +552,70 @@
   line-height: 194%;
   padding: 0rem 0rem 0rem 1rem;
 }
+.col-bid-title {
+  padding: 8.3rem 0rem 2rem 1.3rem;
+  border-bottom: 1px solid #d0d3d9;
+}
+.bid-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 100%;
+  color: #0f1523;
+  letter-spacing: 0.1rem;
+}
+.bid-text {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 140%;
+  color: #0f1523;
+  padding: 1.1rem 0rem 0rem 0.5rem;
+  letter-spacing: 0.02rem;
+}
+.col-bid-text {
+  padding: 0rem 0rem 0rem 0.7rem;
+}
+.col-bid-form {
+  margin: 1rem 0rem 0rem 0rem;
+  border-left: 1px solid #d0d3d9;
+}
+.row-bid-form {
+  padding: 0rem 0rem 0rem 1.1rem;
+  gap: 9.5rem;
+}
+.col-mini-bid-form {
+  gap: 2.3rem;
+}
+.bid-label-input {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 140%;
+  color: #0f1523;
+}
+.bid-input {
+  border: 1px solid #d0d3d9;
+  border-radius: 0.25rem;
+  width: 25rem;
+  height: 3.38rem;
+  margin-top: 0.4rem;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #6b7280;
+  padding-left: 1.2rem;
+}
+.row-bid-form-message {
+  padding: 2.5rem 1.3rem 0rem 1.1rem;
+}
+.col-message {
+  width: 100%;
+}
+.bid-textarea {
+  margin: 0.5rem 0rem 0rem 0rem;
+  padding: 1rem 0rem 5.9rem 1.2rem;
+  border: 1px solid #d0d3d9;
+  border-radius: 0.25rem;
+}

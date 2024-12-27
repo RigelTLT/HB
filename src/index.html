@@ -635,11 +635,81 @@
       <div class="Bid">
         <div class="container">
           <div class="row">
-            <div class="col-12"></div>
+            <div class="col-12 col-bid-title">
+              <h2 class="bid-title">Заявка</h2>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8"></div>
+          <div class="row d-flex flex-row">
+            <div class="col-4 col-bid-text">
+              <p class="bid-text">
+                Оставьте заявку и наши специалисты свяжутся с вами в кратчайшие
+                сроки
+              </p>
+            </div>
+            <div class="col-8 col-bid-form">
+              <div class="row row-bid-form">
+                <div class="col-4 p-0 d-flex flex-column col-mini-bid-form">
+                  <div class="input-container">
+                    <label class="bid-label-input" for="username"
+                      >Ваше имя*</label
+                    >
+                    <input
+                      type="text"
+                      id="username"
+                      class="bid-input input-username"
+                      placeholder="Введите имя"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label class="bid-label-input" for="mail"
+                      >Адрес электронной почты*</label
+                    >
+                    <input
+                      type="text"
+                      id="mail"
+                      class="bid-input input-mail"
+                      placeholder="example@mail.com"
+                    />
+                  </div>
+                </div>
+                <div class="col-4 p-0 d-flex flex-column col-mini-bid-form">
+                  <div class="input-container">
+                    <label class="bid-label-input" for="phone"
+                      >Номер телефона*</label
+                    >
+                    <input
+                      type="text"
+                      id="phone"
+                      class="bid-input input-phone"
+                      placeholder="Введите номер"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label class="bid-label-input" for="city">Ваш город*</label>
+                    <input
+                      type="text"
+                      id="city"
+                      class="bid-input input-city"
+                      placeholder="Населенный пункт"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row row-bid-form-message">
+                <div class="p-0 col-message">
+                  <div class="textarea-container d-flex flex-column">
+                    <label class="bid-label-input" for="message"
+                      >Сообщение</label
+                    >
+                    <textarea
+                      id="message"
+                      class="bid-textarea"
+                      placeholder="Ваше сообщение"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
