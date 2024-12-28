@@ -1,5 +1,6 @@
 @use "bootstrap/scss/bootstrap";
 @import "./components/header/header";
+@import "./components/footer/footer";
 
 .title-page {
   padding: 5rem 1rem 15.2rem 1.1rem;
@@ -50,7 +51,6 @@
 }
 .col-center {
   background: #131313;
-  //padding: 3rem 3.6rem 0rem 0rem;
 }
 .col-rigth {
   background: #2e2e2e;
