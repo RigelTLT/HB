@@ -22,3 +22,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadFooter();
   await loadMap();
 });
+
+function scrollUp() {
+  document.body.scrollIntoView({ behavior: "smooth" });
+}
+const scrollBtn = document.querySelector(".btn-up-link");
+
+scrollBtn.addEventListener("click", function () {
+  scrollUp();
+});

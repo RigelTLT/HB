@@ -620,7 +620,7 @@
   border-radius: 0.25rem;
 }
 .col-message-button {
-  padding: 3rem 0rem 0rem 0rem;
+  padding: 3.1rem 0rem 3.8rem 0rem;
 }
 .bid-text-agreement,
 .bid-link-agreement {
@@ -637,4 +637,17 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #f57520;
+}
+.col-btn-up-link {
+  position: relative;
+  min-height: 13.4rem;
+}
+.btn-up-link {
+  position: absolute;
+  background: #101010;
+  border-radius: 100%;
+  right: 13.4rem;
+  top: 5.4rem;
+  width: 5rem;
+  height: 5rem;
 }
