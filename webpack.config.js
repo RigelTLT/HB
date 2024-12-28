@@ -12,8 +12,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    assetModuleFilename: "assets/[hash][ext][query]",
-    publicPath: "/",
+    assetModuleFilename: "assets/[hash][ext]",
   },
   devServer: {
     port: 8080,
