@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     filename: "[name].[contenthash].js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "docs"),
     clean: true,
     assetModuleFilename: "assets/[hash][ext]",
   },
@@ -19,7 +19,7 @@ module.exports = {
     hot: true,
     open: true,
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "docs"),
     },
   },
   plugins: [
