@@ -112,13 +112,15 @@
   border-radius: 0.62rem;
   max-width: 26.25rem;
   min-height: 11.88rem;
-  background: url("/public/assets/image/3.png");
+  background-color: black;
+  background-image: url("/public/assets/image/3.png");
 }
 .ref-20 {
   border-radius: 0.62rem;
   max-width: 26.25rem;
   min-height: 15.75rem;
-  background: url("/public/assets/image/4.png");
+  background-color: black;
+  background-image: url("/public/assets/image/4.png");
 }
 
 .sea-10,
@@ -134,16 +136,28 @@
   min-height: 12.69rem;
 }
 .sea-10 {
-  background: url("/public/assets/image/7.png");
+  background-color: black;
+  background-image: url("/public/assets/image/7.png");
 }
 .sea-45 {
-  background: url("/public/assets/image/8.png");
+  background-color: black;
+  background-image: url("/public/assets/image/8.png");
 }
 .ref-40 {
-  background: url("/public/assets/image/6.png");
+  background-color: black;
+  background-image: url("/public/assets/image/6.png");
 }
 .sea-40 {
-  background: url("/public/assets/image/5.png");
+  background-color: black;
+  background-image: url("/public/assets/image/5.png");
+}
+.sea-20:hover,
+.ref-20:hover,
+.sea-10:hover,
+.sea-45:hover,
+.ref-40:hover,
+.sea-40:hover {
+  background-color: #464646;
 }
 .container-category {
   font-family: $font-family;
