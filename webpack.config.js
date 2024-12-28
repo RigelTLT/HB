@@ -13,7 +13,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
     assetModuleFilename: "assets/[hash][ext][query]",
-    publicPath: "/",
   },
   devServer: {
     port: 8080,
