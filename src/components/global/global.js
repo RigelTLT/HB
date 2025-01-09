@@ -20,3 +20,19 @@ export async function loadFooter() {
     console.error("Элемент с классом 'footer' не найден");
   }
 }
+
+export async function loadMap() {
+  // Загрузка карты
+  const mapElement = document.querySelector(".map");
+  if (mapElement) {
+    fetch("/assets/image/russia1.svg")
+      .then((response) => response.text())
+      .then((data) => {
+        mapElement.innerHTML = data;
+        /*const svgElement = document.querySelector("svg");
+        svgElement.addEventListener("click", () => {
+          alert("SVG был нажат!");
+        });*/
+      });
+  }
+}

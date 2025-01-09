@@ -1,3 +1,31 @@
+@use "bootstrap/scss/bootstrap";
+@import "../header/header.scss";
+@import "../footer/footer";
+
 .header-container {
   background: black;
+}
+.sale-sea-containers {
+  background-image: url("/public/assets/image/regprod1.jpg");
+  min-height: 54.69rem;
+}
+.container-sale-sea-containers {
+  padding: 11.5rem 1rem 0rem 2rem;
+}
+.title-page-text {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 5.62rem;
+  line-height: 123%;
+  letter-spacing: 0.045em;
+  color: #fff;
+}
+.list-title {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 3rem 0rem 1.3rem 2.3rem;
 }
