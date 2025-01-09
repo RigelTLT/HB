@@ -32,7 +32,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "sales-regions.html",
-      chunks: ["salesRegions", "main"],
+      chunks: ["salesRegions"],
       template: "./src/pages/sales-regions/sales-regions.html",
       favicon: "./public/assets/ico/containers.png",
     }),
