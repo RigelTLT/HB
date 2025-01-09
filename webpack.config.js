@@ -7,6 +7,7 @@ module.exports = {
   mode: "development",
   entry: {
     main: "./src/index.js",
+    salesRegions: "./src/components/sales-regions/sales-regions.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -27,6 +28,12 @@ module.exports = {
       filename: "index.html",
       chunks: ["main"],
       template: "./src/index.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "sales-regions.html",
+      chunks: ["salesRegions", "main"],
+      template: "./src/pages/sales-regions/sales-regions.html",
       favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({
