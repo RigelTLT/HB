@@ -81,6 +81,9 @@
   color: $color-black;
   margin: 0;
 }
+.map-text {
+  padding: 0.6rem 0rem 0rem 0.5rem;
+}
 .company-services-title,
 .company-services-title-company {
   font-family: $font-family;
@@ -112,7 +115,7 @@
   padding: 1.5rem 1.5rem 0rem 0.8rem;
 }
 .cell-services {
-  height: 14.69rem;
+  min-height: 14.69rem;
   border-radius: 0.62rem;
   padding: 2.5rem 0rem 0rem 2.5rem;
 }
