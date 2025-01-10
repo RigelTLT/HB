@@ -36,3 +36,11 @@ export async function loadMap() {
       });
   }
 }
+export function scrollUp() {
+  document.body.scrollIntoView({ behavior: "smooth" });
+}
+const scrollBtn = document.querySelector(".btn-up-link");
+
+scrollBtn.addEventListener("click", function () {
+  scrollUp();
+});

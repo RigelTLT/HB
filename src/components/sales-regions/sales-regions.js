@@ -1,6 +1,6 @@
 import "../../style.scss";
 import "./sales-regions.scss";
-import { loadHeader, loadFooter, loadMap } from "../global/global.js";
+import { loadHeader, loadFooter, loadMap, scrollUp } from "../global/global.js";
 
 function activeLinkNav() {
   const link = document.querySelector(".sales-regions-link ");
@@ -12,4 +12,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadFooter();
   await loadMap();
   activeLinkNav();
+  scrollUp();
 });
