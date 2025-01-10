@@ -1,4 +1,3 @@
-import * as bootstrap from "bootstrap";
 import "../../style.scss";
 import "./sales-regions.scss";
 import { loadHeader, loadFooter, loadMap } from "../global/global.js";

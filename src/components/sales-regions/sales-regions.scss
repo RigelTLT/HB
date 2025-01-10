@@ -1,4 +1,3 @@
-@use "bootstrap/scss/bootstrap";
 @import "../header/header.scss";
 @import "../footer/footer";
 
@@ -18,7 +17,7 @@
   font-size: 5.62rem;
   line-height: 123%;
   letter-spacing: 0.045em;
-  color: #fff;
+  color: $color-white;
 }
 .list-title {
   font-family: $font-family;
@@ -26,6 +25,176 @@
   font-size: 1.5rem;
   line-height: 160%;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: $color-white;
   padding: 3rem 0rem 1.3rem 2.3rem;
+}
+.sales-regions-container {
+  padding: 9.5rem 0rem 0.2rem 1.3rem;
+}
+.sales-regions-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 123%;
+  letter-spacing: 0.045em;
+  color: $color-half-black;
+}
+.list-blocks-city {
+  gap: 2.5rem;
+  padding: 4.5rem 0rem 1rem 0.7rem;
+}
+.cell-blocks-city {
+  border-radius: 0.62rem;
+  width: 18.12rem;
+  height: 5.56rem;
+  background: $color-oranges;
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 123%;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-text-city {
+  padding: 5.5rem 0rem 0rem 0.7rem;
+  row-gap: 2.5rem;
+}
+.cell-text-city {
+  padding: 0;
+}
+.cell-text-city-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 150%;
+  color: $color-black;
+  margin: 0;
+}
+.cell-text-city-list {
+  list-style-type: none;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 175%;
+  color: $color-black;
+  margin: 0;
+}
+.company-services-title,
+.company-services-title-company {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 123%;
+  letter-spacing: 0.07rem;
+}
+.company-services-container {
+  padding: 0rem 0rem 9.3rem 1.2rem;
+}
+.company-services-title {
+  color: $color-half-black;
+}
+.company-services-title-company {
+  color: $color-oranges;
+}
+.company-services-title-text {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 123%;
+  color: $color-half-black;
+  padding: 2rem 0rem 0rem 0.8rem;
+  max-width: 33.69rem;
+}
+.block-services {
+  gap: 2.5rem;
+  padding: 1.5rem 1.5rem 0rem 0.8rem;
+}
+.cell-services {
+  height: 14.69rem;
+  border-radius: 0.62rem;
+  padding: 2.5rem 0rem 0rem 2.5rem;
+}
+.cell-services-first-row {
+  max-width: 38.75rem;
+}
+.cell-services-second-row-gray {
+  max-width: 27.5rem;
+}
+.cell-services-second-row-orange {
+  max-width: 50.06rem;
+}
+.gray-cell {
+  background: $color-gray;
+}
+.orange-cell {
+  background: $color-oranges;
+}
+.cell-service-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: $color-white;
+}
+.cell-service-text {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: $color-white;
+  padding: 1.2rem 0rem 0.8rem 0rem;
+}
+.btn-request {
+  padding: 0 1rem 0 1rem;
+  flex-shrink: 0;
+}
+.btn-black {
+  background: $color-black;
+}
+.pick-up-container-title {
+  font-size: 3rem;
+}
+.pick-up-container-title-cont {
+  padding: 5rem 0rem 0rem 1.3rem;
+}
+.row-container-tile {
+  padding: 2.4rem 0rem 0rem 1.1rem;
+  gap: 2.6rem;
+}
+.pick-up-container-btn {
+  padding: 2.1rem 0rem 0 0rem;
+}
+.btn-container {
+  padding: 0 1rem 0 1rem;
+  flex-shrink: 0;
+  width: 14.81rem;
+  height: 3.38rem;
+}
+.pick-up-container-text {
+  line-height: 134%;
+  letter-spacing: 0.03rem;
+}
+.black-background {
+  min-height: 69.2rem;
+}
+.row-news-title {
+  padding: 6.2rem 0rem 0rem 0.4rem;
+}
+.news-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #101010;
+}
+.row-news {
+  padding: 2.1rem 0rem 0rem 1.1rem;
+}
+.col-bid-title {
+  padding: 9.3rem 0rem 2rem 1.3rem;
+}
+.btn-up-link {
+  top: 2.7rem;
+}
+.col-btn-up-link {
+  min-height: 10.7rem;
 }
