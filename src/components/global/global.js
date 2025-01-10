@@ -25,7 +25,7 @@ export async function loadMap() {
   // Загрузка карты
   const mapElement = document.querySelector(".map");
   if (mapElement) {
-    fetch("/assets/image/russia1.svg")
+    await fetch("./assets/image/russia1.svg")
       .then((response) => response.text())
       .then((data) => {
         mapElement.innerHTML = data;
