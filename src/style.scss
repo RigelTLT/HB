@@ -65,13 +65,15 @@
   width: 16em;
 }
 .row-partner {
-  padding-top: 150px;
+  padding-top: 147px;
   padding-left: 2rem;
   padding-right: 1rem;
   gap: 9rem;
+  width: 100%;
+  margin: 0;
 }
 .col-catalog {
-  padding: 13.2rem 0rem 1rem 1rem;
+  padding: 12.8rem 0rem 1rem 1rem;
 }
 .catalog-text {
   font-family: $font-family;
@@ -80,6 +82,9 @@
   line-height: 123%;
   letter-spacing: 0.03em;
   color: $color-half-black;
+}
+.row-catalog-text {
+  margin: 0;
 }
 .sales-region {
   border-radius: 0.62rem;
@@ -264,7 +269,7 @@
   color: $color-white;
 }
 .black-background {
-  background: url("/public/assets/image/black fon.png");
+  background: url("/public/assets/image/black-fon.png");
   min-height: 64.69rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -388,7 +393,7 @@
 }
 .advantages-left-banner {
   max-width: 52.6rem;
-  background: url("/public/assets/image/Rectangle 148.jpg");
+  background: url("/public/assets/image/Rectangle_148.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   flex: 2;
@@ -402,7 +407,7 @@
 }
 .advantages-rigth-banner {
   max-width: 20.1rem;
-  background: url("/public/assets/image/Rectangle 149.jpg");
+  background: url("/public/assets/image/Rectangle_149.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   flex: 2;
@@ -541,6 +546,8 @@
 }
 .row-contact-map {
   padding: 3.6rem 0rem 0rem 0rem;
+  width: 100%;
+  margin: 0;
 }
 .row-contats {
   gap: 9rem;
