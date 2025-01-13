@@ -8,6 +8,7 @@ module.exports = {
   entry: {
     main: "./src/index.js",
     salesRegions: "./src/components/sales-regions/sales-regions.js",
+    catalog: "./src/components/catalog/catalog.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -34,6 +35,12 @@ module.exports = {
       filename: "sales-regions.html",
       chunks: ["salesRegions", "main"],
       template: "./src/pages/sales-regions/sales-regions.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "catalog.html",
+      chunks: ["catalog", "main"],
+      template: "./src/pages/catalog/catalog.html",
       favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({
