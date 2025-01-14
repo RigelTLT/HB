@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadHeader();
   await loadFooter();
   await loadMap();
-  scrollUp();
+  await scrollUp();
 });

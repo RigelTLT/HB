@@ -49,10 +49,11 @@ export function loadSocialIcon() {
   }
 }
 export async function scrollUp() {
-  document.body.scrollIntoView({ behavior: "smooth" });
+  const scrollBtn = document.querySelector(".btn-up-link");
+  if (scrollBtn) {
+    scrollBtn.addEventListener("click", function () {
+      scrollUp();
+    });
+    document.body.scrollIntoView({ behavior: "smooth" });
+  }
 }
-const scrollBtn = document.querySelector(".btn-up-link");
-
-scrollBtn.addEventListener("click", function () {
-  scrollUp();
-});
