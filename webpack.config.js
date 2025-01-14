@@ -10,6 +10,7 @@ module.exports = {
     salesRegions: "./src/components/sales-regions/sales-regions.js",
     catalog: "./src/components/catalog/catalog.js",
     blog: "./src/components/blog/blog.js",
+    blogPage: "./src/components/blog-page/blog-page.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -48,6 +49,12 @@ module.exports = {
       filename: "blog.html",
       chunks: ["blog", "main"],
       template: "./src/pages/blog/blog.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "blog-page.html",
+      chunks: ["blogPage", "main"],
+      template: "./src/pages/blog-page/blog-page.html",
       favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({

@@ -36,6 +36,18 @@ export async function loadMap() {
       });
   }
 }
+export function loadSocialIcon() {
+  const linkElements = document.querySelectorAll(".link-social-icon");
+  for (let i = 0; i < linkElements.length; i++) {
+    if (linkElements[i]) {
+      fetch(`./assets/image/socials${i + 1}.svg`)
+        .then((response) => response.text())
+        .then((data) => {
+          linkElements[i].innerHTML = data;
+        });
+    }
+  }
+}
 export async function scrollUp() {
   document.body.scrollIntoView({ behavior: "smooth" });
 }
