@@ -1,3 +1,31 @@
 @import "../header/header.scss";
 @import "../footer/footer";
 @import "../catalog/catalog.scss";
+
+.blog-head-container {
+  background-image: url("/public/assets/image/top.jpg");
+  min-height: 17.38rem;
+}
+.row-blog-title {
+  padding: 2.5rem 0rem 0rem 0.5rem;
+}
+.blog-title {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 123%;
+  letter-spacing: 0.05em;
+  color: $color-white;
+}
+.row-news {
+  padding: 3rem 0rem 0rem 1.1rem;
+}
+.col-news-more {
+  padding: 3rem 2rem 0rem 1.7rem;
+}
+.col-btn-up-link {
+  min-height: 10rem;
+}
+.btn-up-link {
+  top: 2rem;
+}
