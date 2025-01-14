@@ -112,6 +112,7 @@
 .list-col-conatainer {
   max-width: 26.25rem;
   gap: 1rem;
+  width: 100%;
 }
 .sea-20 {
   border-radius: 0.62rem;
@@ -334,6 +335,7 @@
 }
 .col-block-sea-containers {
   gap: 1rem;
+  width: max-content;
 }
 .block-sea-containers-services {
   border-radius: 0.62rem;
@@ -691,5 +693,37 @@
       rgb(46, 46, 46) 67%,
       rgb(46, 46, 46) 100%
     );
+  }
+}
+
+@media (max-width: 850px) {
+  .advantages-center-banner {
+    flex-wrap: wrap;
+  }
+  .bid-input {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .block-sea-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .col-block-sea-containers {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .block-sea-containers-services {
+    width: 18.88rem;
+    height: 14.56rem;
+  }
+
+  .col-woman {
+    padding: 0;
   }
 }
