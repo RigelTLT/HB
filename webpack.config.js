@@ -11,6 +11,7 @@ module.exports = {
     catalog: "./src/components/catalog/catalog.js",
     blog: "./src/components/blog/blog.js",
     blogPage: "./src/components/blog-page/blog-page.js",
+    bid: "./src/components/bid/bid.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -55,6 +56,12 @@ module.exports = {
       filename: "blog-page.html",
       chunks: ["blogPage", "main"],
       template: "./src/pages/blog-page/blog-page.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "bid.html",
+      chunks: ["bid", "main"],
+      template: "./src/pages/bid/bid.html",
       favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({
