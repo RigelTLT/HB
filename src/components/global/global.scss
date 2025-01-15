@@ -8,3 +8,11 @@ $color-half-black: #101010;
 $color-black: #000;
 $color-oranges-hover: #a1511d;
 $third-family: "Bebas Neue", serif;
+@media (max-width: 850px) {
+  h1 {
+    font-size: calc(2.5rem + 1.5vw) !important;
+  }
+  h2 {
+    font-size: calc(2rem + 1.5vw) !important;
+  }
+}

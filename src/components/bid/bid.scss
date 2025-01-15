@@ -40,6 +40,9 @@
   color: #0f1523;
   margin-bottom: 0.5rem;
 }
+.bid-container-size-button {
+  row-gap: 1rem;
+}
 .btn-size-container {
   border: 1px solid #d0d3d9;
   background-color: unset;
@@ -61,4 +64,10 @@
 }
 .bid-button {
   margin: 0;
+}
+@media (max-width: 850px) {
+  .bid-input {
+    padding-left: 1.2rem;
+    padding-right: 0rem;
+  }
 }
