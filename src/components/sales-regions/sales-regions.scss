@@ -1,9 +1,6 @@
 @import "../header/header.scss";
 @import "../footer/footer";
 
-.header-container {
-  background: black;
-}
 .sale-sea-containers {
   background-image: url("/public/assets/image/regprod1.jpg");
   min-height: 54.69rem;
@@ -29,7 +26,7 @@
   padding: 3rem 0rem 1.3rem 2.3rem;
 }
 .sales-regions-container {
-  padding: 9.5rem 0rem 0.2rem 1.3rem;
+  padding: 9rem 0rem 0.2rem 1.3rem;
 }
 .sales-regions-title {
   font-family: $font-family;

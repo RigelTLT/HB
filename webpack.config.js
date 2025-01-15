@@ -8,6 +8,10 @@ module.exports = {
   entry: {
     main: "./src/index.js",
     salesRegions: "./src/components/sales-regions/sales-regions.js",
+    catalog: "./src/components/catalog/catalog.js",
+    blog: "./src/components/blog/blog.js",
+    blogPage: "./src/components/blog-page/blog-page.js",
+    bid: "./src/components/bid/bid.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -32,8 +36,32 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "sales-regions.html",
-      chunks: ["salesRegions"],
+      chunks: ["salesRegions", "main"],
       template: "./src/pages/sales-regions/sales-regions.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "catalog.html",
+      chunks: ["catalog", "main"],
+      template: "./src/pages/catalog/catalog.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "blog.html",
+      chunks: ["blog", "main"],
+      template: "./src/pages/blog/blog.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "blog-page.html",
+      chunks: ["blogPage", "main"],
+      template: "./src/pages/blog-page/blog-page.html",
+      favicon: "./public/assets/ico/containers.png",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "bid.html",
+      chunks: ["bid", "main"],
+      template: "./src/pages/bid/bid.html",
       favicon: "./public/assets/ico/containers.png",
     }),
     new HtmlWebpackPlugin({

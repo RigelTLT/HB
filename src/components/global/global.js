@@ -36,11 +36,24 @@ export async function loadMap() {
       });
   }
 }
-export function scrollUp() {
-  document.body.scrollIntoView({ behavior: "smooth" });
+export function loadSocialIcon() {
+  const linkElements = document.querySelectorAll(".link-social-icon");
+  for (let i = 0; i < linkElements.length; i++) {
+    if (linkElements[i]) {
+      fetch(`./assets/image/socials${i + 1}.svg`)
+        .then((response) => response.text())
+        .then((data) => {
+          linkElements[i].innerHTML = data;
+        });
+    }
+  }
 }
-const scrollBtn = document.querySelector(".btn-up-link");
-
-scrollBtn.addEventListener("click", function () {
-  scrollUp();
-});
+export async function scrollUp() {
+  const scrollBtn = document.querySelector(".btn-up-link");
+  if (scrollBtn) {
+    scrollBtn.addEventListener("click", function () {
+      scrollUp();
+    });
+    document.body.scrollIntoView({ behavior: "smooth" });
+  }
+}
