@@ -55,5 +55,28 @@ export async function scrollUp() {
       scrollUp();
     });
     document.body.scrollIntoView({ behavior: "smooth" });
+    window.onscroll = function () {
+      if (
+        document.body.scrollTop > 150 ||
+        document.documentElement.scrollTop > 150
+      ) {
+        scrollBtn.style.opacity = "1"; // Показываем кнопку
+      } else {
+        scrollBtn.style.opacity = "0"; // Скрываем кнопку
+      }
+    };
   }
 }
+
+export function scrolNav() {
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".header-fix");
+    if (window.scrollY > 1) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
+}
+
+export function scrollToTopBtn() {}

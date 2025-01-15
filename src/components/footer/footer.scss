@@ -122,3 +122,12 @@
   text-decoration: none;
   padding-left: 1.3rem;
 }
+@media (max-width: 992px) {
+  .col-navigation {
+    padding: 1.3rem 0rem 0rem 0rem;
+    gap: 1rem;
+  }
+  .footer-col-img {
+    display: none;
+  }
+}

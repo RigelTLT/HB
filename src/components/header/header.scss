@@ -1,5 +1,11 @@
 @import "../global/global.scss";
 
+.header {
+  height: 6.56rem;
+}
+.header-fix.scrolled {
+  background-color: $color-black;
+}
 body {
   font-family: $font-family;
 }
@@ -61,4 +67,14 @@ body {
 }
 .col-btn-header {
   width: max-content;
+}
+@media (max-width: 992px) {
+  .header-fix {
+    background-color: $color-black;
+  }
+}
+@media (max-width: 1400px) {
+  .span-phone {
+    margin-left: 0rem;
+  }
 }
