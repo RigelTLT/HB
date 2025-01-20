@@ -3,6 +3,9 @@
 .header {
   height: 6.56rem;
 }
+.header-fix {
+  transition: 0.2s;
+}
 .header-fix.scrolled {
   background-color: $color-black;
 }
